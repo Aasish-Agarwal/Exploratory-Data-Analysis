@@ -14,11 +14,11 @@ In accordance with the Coursera Honor Code, I (Aasish Agarwal) certify that the 
 ## Question 1
 Which of the following is a principle of analytic graphics?
 
-1) Show comparisons
-1) Only do what your tools allow you to do
-1) Show box plots (univariate summaries)
-1) Make judicious use of color in your scatterplots
-1) Don't plot more than two variables at at time
+1. Show comparisons
+1. Only do what your tools allow you to do
+1. Show box plots (univariate summaries)
+1. Make judicious use of color in your scatterplots
+1. Don't plot more than two variables at at time
 
 ```{r, echo=FALSE}
 cat("Show comparisons")
