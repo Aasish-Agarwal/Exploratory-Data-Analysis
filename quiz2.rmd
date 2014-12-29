@@ -6,11 +6,7 @@ output: html_document
 runtime: shiny
 ---
 
-## Week 2 Quiz Help
-
-Warning: The hard deadline has passed. You can attempt it, but you will not get credit for it. You are welcome to try it as a learning exercise.
-
-In accordance with the Coursera Honor Code, I (Aasish Agarwal) certify that the answers here are my own work.
+## Week 2 Quiz
 
 ## Question 1
 Under the lattice graphics system, what do the primary plotting functions like xyplot() and bwplot() return?
