@@ -108,6 +108,10 @@ qplot(Wind, Ozone, data = airquality, facets = . ~ Month)
 4. qplot(Wind, Ozone, data = airquality, geom = "smooth")
 
 ```{r, echo=FALSE}
+library(ggplot2)
+airquality = transform(airquality, Month = factor(Month))
+qplot(Wind, Ozone, data = airquality, facets = . ~ Month)
+
 cat ( 'airquality = transform(airquality, Month = factor(Month))')
 cat ( 'qplot(Wind, Ozone, data = airquality, facets = . ~ Month)')
 
@@ -155,5 +159,7 @@ How can I modify the the code above to add a smoother to the scatterplot?
 1. qplot(votes, rating, data = movies, panel = panel.loess)
 
 ```{r, echo=FALSE}
+library(ggplot2)
+qplot(votes, rating, data = movies) + geom_smooth()
 cat ( 'qplot(votes, rating, data = movies) + geom_smooth()')
 ```
