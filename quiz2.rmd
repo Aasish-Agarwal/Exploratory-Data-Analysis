@@ -7,7 +7,6 @@ runtime: shiny
 ---
 
 ## Week 2 Quiz Help
-## Reformatting
 
 Warning: The hard deadline has passed. You can attempt it, but you will not get credit for it. You are welcome to try it as a learning exercise.
 
